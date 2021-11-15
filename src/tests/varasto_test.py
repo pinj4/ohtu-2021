@@ -93,4 +93,4 @@ class TestVarasto(unittest.TestCase):
 
         printattu = str(self.varasto)
 
-        self.assertAlmostEqual("saldo = 5, vielä tilaa 5", printattu )
+        self.assertAlmostEqual("saldo = 5, vielä tilaa 5", printattu)
